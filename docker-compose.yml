@@ -1,0 +1,10 @@
+services:
+  build-linux:
+    image: "rust:1-buster"
+    platform: "linux/amd64"
+    volumes:
+      - ".:/src"
+      - "./target-linux:/src/target"
+    working_dir: "/src"
+    command: ["cargo", "build", "--release"]
+
