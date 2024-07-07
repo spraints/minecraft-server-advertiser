@@ -7,7 +7,7 @@ use gumdrop::Options;
 
 #[derive(Options)]
 struct Args {
-    #[options(help = "Hosts user's Mincraft handle (required)")]
+    #[options(help = "Hosts user's Minecraft handle (required)")]
     user: String,
 
     #[options(help = "Minecraft server name (required)")]
