@@ -1,5 +1,6 @@
 [package]
 name = "minecraft-server-advertiser"
+default-run = "minecraft-server-advertiser"
 version = "1.0.0"
 edition = "2021"
 
